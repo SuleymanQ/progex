@@ -8,10 +8,15 @@ export default defineNuxtConfig({
     "@element-plus/nuxt",
     "@nuxtjs/tailwindcss",
     "@hypernym/nuxt-anime",
+    ["@pinia/nuxt", ["defineStore"]],
   ],
 
   tailwindcss: {
     viewer: false,
     configPath: "./tailwind.config.js",
+  },
+  imports: {
+    autoImport: true,
+    dirs: ["stores"],
   },
 });

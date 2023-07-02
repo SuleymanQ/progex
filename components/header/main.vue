@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <HeaderMain />
+  <HeaderLogo />
 </template>
+
+<style scoped></style>
