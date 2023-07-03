@@ -1,9 +1,8 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="w-full h-full relative z-20">
-    <div class="sticky top-1/2">
+  <div class="w-full h-screen z-20 sticky top-0 backdrop-blur-lg">
+    <div>
       <div>
         <h1>Parallax Made Easy.</h1>
       </div>

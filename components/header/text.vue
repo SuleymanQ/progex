@@ -3,7 +3,7 @@
 <template>
   <div class="p-4 w-10/12 sm:w-1/2 text-center font-black">
     <span
-      class="text-transparent bg-clip-text text-5xl sm:text-7xl md:text-9xl bg-gradient-to-br text-[#22697c] dark:from-[#8bd96b] dark:to-[#59b268]"
+      class="text-transparent bg-clip-text text-5xl sm:text-7xl md:text-9xl bg-gradient-to-br from-[#8bd96b] to-[#59b268]"
       >PROGEX</span
     >
     <p
