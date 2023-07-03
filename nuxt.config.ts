@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@hypernym/nuxt-anime",
     ["@pinia/nuxt", ["defineStore"]],
+    "@vueuse/nuxt",
   ],
 
   tailwindcss: {
