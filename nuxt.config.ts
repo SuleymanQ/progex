@@ -12,6 +12,8 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
   ],
 
+  css: ["element-plus/theme-chalk/dark/css-vars.css"],
+
   tailwindcss: {
     viewer: false,
     configPath: "./tailwind.config.js",

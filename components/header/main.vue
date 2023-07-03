@@ -17,6 +17,7 @@ const cardStyle = computed(() => ({
   >
     <LazyHeaderLogo :style="cardStyle" />
     <HeaderText />
+    <HeaderScrollBar />
   </div>
 </template>
 
