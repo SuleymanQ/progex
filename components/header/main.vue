@@ -13,11 +13,10 @@ const cardStyle = computed(() => ({
 <template>
   <div
     ref="header"
-    class="w-full h-full flex flex-col items-center justify-center sticky top-0"
+    class="w-full h-full flex flex-col items-center justify-center my-auto"
   >
     <LazyHeaderLogo :style="cardStyle" />
     <HeaderText />
-    <HeaderScrollBar />
   </div>
 </template>
 

@@ -32,11 +32,20 @@
 
 <template>
   <div
-    ref="card"
-    class="w-11/12 sm:w-8/12 md:w-7/12 h-3/5 bg-white rounded-2xl center flex-col shadow-2xl border-2"
+    class="w-11/12 sm:w-8/12 md:w-7/12 relative top-[15%] bg-white rounded-2xl shadow-2xl border-2 select-none p-4 duration-300"
   >
-    <LazyHeaderLogo />
-    <HeaderText />
+    <div class="text-2xl font-bold sm:text-3xl md:text-4xl py-2">
+      Calculator
+    </div>
+    <ElTabs ref="card" style="--el-color-primary: #59b268">
+      <ElTabPane label="Starter" class="h-[50vh]">
+        <HeaderMain />
+      </ElTabPane>
+      <ElTabPane label="Money ($)">
+        <FormWithDollar />
+      </ElTabPane>
+      <ElTabPane label="Time"> Some test </ElTabPane>
+    </ElTabs>
   </div>
 </template>
 
