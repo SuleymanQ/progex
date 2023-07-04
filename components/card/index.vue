@@ -39,10 +39,10 @@
     </div>
     <ElTabs ref="card" style="--el-color-primary: #59b268">
       <ElTabPane label="Starter" class="h-[50vh]">
-        <HeaderMain />
+        <LazyHeaderMain />
       </ElTabPane>
       <ElTabPane label="Money ($)">
-        <FormWithDollar />
+        <LazyFormWithDollar />
       </ElTabPane>
       <ElTabPane label="Time"> Some test </ElTabPane>
     </ElTabs>

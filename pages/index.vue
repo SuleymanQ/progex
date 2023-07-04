@@ -1,8 +1,14 @@
-<script setup></script>
+<script setup lang="ts">
+useHead({
+  title: "Progex Calculator",
+});
+</script>
 
 <template>
-  <div class="w-full h-full bg-gradient-to-br item-start from-[#8bd96b] to-[#59b268]">
-    <Card />
+  <div
+    class="w-full h-full bg-gradient-to-br item-start from-[#8bd96b] to-[#59b268]"
+  >
+    <LazyCard />
   </div>
 </template>
 

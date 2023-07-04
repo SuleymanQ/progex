@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     "@hypernym/nuxt-anime",
     ["@pinia/nuxt", ["defineStore"]],
     "@vueuse/nuxt",
+    '@vite-pwa/nuxt',
   ],
 
   css: ["element-plus/theme-chalk/dark/css-vars.css"],
