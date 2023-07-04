@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const card = ref(null);
 const { x, y } = useMouse();
+
 const range = 20;
 
 function calc(a: number, b: number) {
@@ -21,7 +22,7 @@ const cardStyle = computed(() => ({
     :style="cardStyle"
     class="w-11/12 sm:w-8/12 md:w-7/12 h-3/5 bg-white rounded-2xl center flex-col shadow-2xl border-2"
   >
-    <HeaderLogo />
+    <LazyHeaderLogo />
     <HeaderText />
   </div>
 </template>
